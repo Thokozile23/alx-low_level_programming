@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - main function to generate a random number
@@ -24,7 +24,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n < 0)
+	else 
 	{
 		printf("%d is negative\n", n);
 	}
